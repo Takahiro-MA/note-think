@@ -90,6 +90,49 @@ class NoteClient:
             "message": "下書き保存しました",
         }
 
+    def update_draft(self, note_id: int, title: str, body_markdown: str) -> dict:
+        """
+        既存の下書き（note_id）を上書き更新する。
+
+        Args:
+            note_id: 既存記事のID（list_drafts や create_draft の戻り値で取得）
+            title: 記事タイトル
+            body_markdown: 本文（Markdown）
+
+        Returns:
+            {"success": bool, "note_id": int, ...}
+        """
+        body_html = markdown.markdown(
+            body_markdown,
+            extensions=["extra", "codehilite", "nl2br"],
+        )
+
+        save_resp = self.session.post(
+            f"{NOTE_API_BASE}/text_notes/draft_save",
+            params={"id": note_id, "is_temp_saved": "true"},
+            json={
+                "name": title,
+                "body": body_html,
+                "body_length": len(body_markdown),
+            },
+        )
+
+        if save_resp.status_code not in (200, 201):
+            return {
+                "success": False,
+                "status_code": save_resp.status_code,
+                "error": save_resp.text,
+                "note_id": note_id,
+                "step": "draft_save",
+            }
+
+        return {
+            "success": True,
+            "note_id": note_id,
+            "title": title,
+            "message": "下書きを更新しました",
+        }
+
     def list_drafts(self, limit: int = 10) -> list[dict]:
         """下書き一覧を取得"""
         resp = self.session.get(

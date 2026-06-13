@@ -45,6 +45,19 @@ def cmd_draft(title: str, md_file: str):
     print(json.dumps(result, ensure_ascii=False, indent=2))
 
 
+def cmd_update(note_id: str, title: str, md_file: str):
+    """既存の下書き（note_id）を上書き更新"""
+    md_path = Path(md_file)
+    if not md_path.exists():
+        print(f"エラー: ファイルが見つかりません: {md_file}")
+        sys.exit(1)
+
+    body = md_path.read_text(encoding="utf-8")
+    client = NoteClient()
+    result = client.update_draft(int(note_id), title, body)
+    print(json.dumps(result, ensure_ascii=False, indent=2))
+
+
 def cmd_list():
     """下書き一覧"""
     client = NoteClient()
@@ -79,6 +92,11 @@ def main():
                 print("使い方: cli.py draft <タイトル> <markdownファイル>")
                 sys.exit(1)
             cmd_draft(sys.argv[2], sys.argv[3])
+        case "update":
+            if len(sys.argv) < 5:
+                print("使い方: cli.py update <note_id> <タイトル> <markdownファイル>")
+                sys.exit(1)
+            cmd_update(sys.argv[2], sys.argv[3], sys.argv[4])
         case "list":
             cmd_list()
         case "update-cookie":
