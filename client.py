@@ -94,6 +94,10 @@ class NoteClient:
         """
         既存の下書き（note_id）を上書き更新する。
 
+        ※注意: これは下書き(draft)にのみ有効。公開済み記事には反映されない
+        （編集が下書きバッファに溜まるだけでライブに出ない）。公開記事を直すには
+        note画面でいったん下書きに戻してから update する。
+
         Args:
             note_id: 既存記事のID（list_drafts や create_draft の戻り値で取得）
             title: 記事タイトル
