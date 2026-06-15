@@ -12,6 +12,10 @@ Last Updated: 2026-06-13
 | Reviewed | （任意）`/review` 反映済み。有料主力のみ |
 | Published | `/publish` で下書き投稿済み |
 
+## アイデア／ドラフト（仕上げ前・未投稿）
+- **断酒シリーズ**（柱テーマ候補）: `ideas/_sobriety-series.md`
+  - `ideas/sober-saizeriya.md` — 「断酒して気づいたサイゼの良さ」雑談ドラフト保存済み（仕上げ待ち）
+
 ## note_id（上書き更新 `python3 -m note_poster update <id> "<title>" <file>` 用）
 - 165032044=イヤホン / 165051961=AI / 165051963=ガジェット / 165051967=考える時間 / 165051969=タスク管理
 - 165215060=AI何を任せないか(B・論考) / 165337356=スマホ格下げ(B2・壁打ち版)
