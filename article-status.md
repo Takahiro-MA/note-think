@@ -18,7 +18,7 @@ Last Updated: 2026-06-13
 
 ## note_id（上書き更新 `python3 -m note_poster update <id> "<title>" <file>` 用）
 - 165032044=イヤホン / 165051961=AI / 165051963=ガジェット / 165051967=考える時間 / 165051969=タスク管理
-- 165215060=AI何を任せないか(B・論考) / 165337356=スマホ格下げ(B2・壁打ち版) / 165780223=断酒サイゼ(柱1初・締まったカジュアル)
+- 165215060=AI何を任せないか(B・論考) / 165337356=スマホ格下げ(B2・壁打ち版) / 165780223=断酒サイゼ(柱1初・締まったカジュアル) / 165781250=英語ポイズン(柱4論考)
 
 ## 記事一覧（v2は全て実験的に無料。無料で集客を見て、反応の良いものを後で有料化 ← ①のテクニック）
 | # | タイトル仮 | type | 価格 | Phase | ファイル | 下書きURL | 備考 |
@@ -31,3 +31,4 @@ Last Updated: 2026-06-13
 | 6 | AIに、絶対に任せちゃいけない3つの仕事 | free | 0 | Published | `articles/ai-what-not-to-automate/article.md` | https://note.com/notes/n6b7c818fadb7/edit | **B：論考型**。タイトル磨き済(好奇・数字+禁止型) |
 | 7 | スマホ見すぎは、あなたのせいじゃない | free | 0 | Published | `articles/phone-downgrade/article.md` | https://note.com/notes/n55b05d42a8c5/edit | **B2：壁打ち版・論考＋実体験**。捏造なし。タイトルは便益型に変更 |
 | 8 | 断酒して、サイゼがもっと好きになった | free | 0 | Published | `articles/sober-saizeriya/article.md` | https://note.com/notes/n4e582f275712/edit | **柱1断酒・初投稿**。締まったカジュアル文体の初適用。軽い入口 |
+| 9 | 言いたいことも英語で言えない、こんな世の中じゃ、ポイズン | free | 0 | Published | `articles/english-in-ai-era/article.md` | https://note.com/notes/n1d87de11f7f9/edit | **柱4・論考**。AI翻訳逆張り＋帯域論＋オフライン。POISONタイトル(40代狙い) |

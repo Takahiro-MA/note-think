@@ -1,5 +1,5 @@
 ---
-status: idea-draft
+status: done   # 記事化済み → articles/english-in-ai-era/（投稿済 165781250）
 series: 柱4（AIとどう働くか／AI時代の価値）・論考
 source: 2026-06-17 雑談（持論）
 ---
