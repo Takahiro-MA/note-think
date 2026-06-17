@@ -18,7 +18,7 @@ Last Updated: 2026-06-13
 
 ## note_id（上書き更新 `python3 -m note_poster update <id> "<title>" <file>` 用）
 - 165032044=イヤホン / 165051961=AI / 165051963=ガジェット / 165051967=考える時間 / 165051969=タスク管理
-- 165215060=AI何を任せないか(B・論考) / 165337356=スマホ格下げ(B2・壁打ち版)
+- 165215060=AI何を任せないか(B・論考) / 165337356=スマホ格下げ(B2・壁打ち版) / 165780223=断酒サイゼ(柱1初・締まったカジュアル)
 
 ## 記事一覧（v2は全て実験的に無料。無料で集客を見て、反応の良いものを後で有料化 ← ①のテクニック）
 | # | タイトル仮 | type | 価格 | Phase | ファイル | 下書きURL | 備考 |
@@ -30,3 +30,4 @@ Last Updated: 2026-06-13
 | 5 | タスク管理アプリを全部消したら、なぜか仕事が回り始めた | free | 0 | Published | `articles/task-management-quit/article.md` | https://note.com/notes/nbb58919db87e/edit | タイトル磨き済。★PC故障〜の体験部が偽 |
 | 6 | AIに、絶対に任せちゃいけない3つの仕事 | free | 0 | Published | `articles/ai-what-not-to-automate/article.md` | https://note.com/notes/n6b7c818fadb7/edit | **B：論考型**。タイトル磨き済(好奇・数字+禁止型) |
 | 7 | スマホ見すぎは、あなたのせいじゃない | free | 0 | Published | `articles/phone-downgrade/article.md` | https://note.com/notes/n55b05d42a8c5/edit | **B2：壁打ち版・論考＋実体験**。捏造なし。タイトルは便益型に変更 |
+| 8 | 断酒して、サイゼがもっと好きになった | free | 0 | Published | `articles/sober-saizeriya/article.md` | https://note.com/notes/n4e582f275712/edit | **柱1断酒・初投稿**。締まったカジュアル文体の初適用。軽い入口 |

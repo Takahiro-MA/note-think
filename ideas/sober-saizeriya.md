@@ -1,5 +1,5 @@
 ---
-status: idea-draft   # 未完成。記事に仕上げる前の雑談ドラフト。まだ書き起こさない
+status: done   # 記事化済み → articles/sober-saizeriya/article.md（note下書き投稿済 165780223）
 series: 断酒
 type: free（予定）
 source: 2026-06-15 雑談ブレストで収集（Takahiroの実体験）
