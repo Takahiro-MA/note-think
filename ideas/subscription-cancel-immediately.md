@@ -1,5 +1,5 @@
 ---
-status: idea-draft
+status: done   # 記事化済み（投稿 165844766）
 series: 柱2（整える／暮らしの実験・効率を疑う）
 source: 2026-06-18 Takahiro（持論・実践ライフハック）
 voice: 締まったカジュアル

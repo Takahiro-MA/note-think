@@ -1,5 +1,5 @@
 ---
-status: idea-draft
+status: done   # 記事化済み（投稿 165844769）
 series: 柱2（整える／効率を疑う）・論考
 source: 2026-06-17 雑談（Takahiroの持論＋実体験）
 ---

@@ -31,4 +31,9 @@ Last Updated: 2026-06-13
 | 6 | AIに、絶対に任せちゃいけない3つの仕事 | free | 0 | Published | `articles/ai-what-not-to-automate/article.md` | https://note.com/notes/n6b7c818fadb7/edit | **B：論考型**。タイトル磨き済(好奇・数字+禁止型) |
 | 7 | スマホ見すぎは、あなたのせいじゃない | free | 0 | Published | `articles/phone-downgrade/article.md` | https://note.com/notes/n55b05d42a8c5/edit | **B2：壁打ち版・論考＋実体験**。捏造なし。タイトルは便益型に変更 |
 | 8 | 断酒して、サイゼがもっと好きになった | free | 0 | Published | `articles/sober-saizeriya/article.md` | https://note.com/notes/n4e582f275712/edit | **柱1断酒・初投稿**。締まったカジュアル文体の初適用。軽い入口 |
-| 9 | 言いたいことも英語で言えない、こんな世の中じゃ、ポイズン | free | 0 | Published | `articles/english-in-ai-era/article.md` | https://note.com/notes/n1d87de11f7f9/edit | **柱4・論考**。AI翻訳逆張り＋帯域論＋オフライン。POISONタイトル(40代狙い) |
+| 9 | 言いたいことも英語で言えない、こんな世の中じゃ、ポイズン | free | 0 | Published | `articles/english-in-ai-era/article.md` | https://note.com/notes/n1d87de11f7f9/edit | **柱4・論考**。AI翻訳逆張り＋帯域論＋オフライン。POISONタイトル(40代狙い)。締めはローカルA案・note側はユーザー修正 |
+| 10 | サブスクは、契約した瞬間に解約しろ | free | 0 | Published(下書きストック) | `articles/subscription-cancel-immediately/article.md` | id:165844766 | 柱2・実用ライフハック |
+| 11 | ゲームを楽しめる人は、好奇心が死んでいない | free | 0 | Published(下書きストック) | `articles/game-curiosity/article.md` | id:165844769 | 柱2・タイパ逆張り論考 |
+| 12 | AI任せの開発で、頭でっかちにならないために | free | 0 | Published(下書きストック) | `articles/ai-dev-not-headheavy/article.md` | id:165844772 | 柱4・本職の権威 |
+| 13 | 「糖質制限してるのに痩せない」の正体は、脂質だった | free | 0 | Published(下書きストック) | `articles/fat-not-carbs/article.md` | id:165844775 | 柱2脂質・実ログ・薬機法配慮済 |
+| 14 | 「夕方になると疲れる」のは、年のせいじゃなかった | free | 0 | Published(下書きストック) | `articles/sober-evening-fatigue/article.md` | id:165844777 | 柱1断酒・実ログ・薬機法配慮済 |
