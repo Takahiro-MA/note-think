@@ -1,5 +1,5 @@
 ---
-status: idea-draft
+status: done   # 記事化済み×3（166261032/033/035）
 series: 柱2（整える／暮らしの実験・効率を疑う）
 source: 2026-06-21 Takahiro実体験（モーニングページを2日試した会話の整理）
 voice: 締まったカジュアル

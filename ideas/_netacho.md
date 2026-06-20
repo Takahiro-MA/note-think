@@ -42,7 +42,7 @@
 - ✅ ゲームを楽しめる人は、好奇心が死んでいない（投稿済 165844769）… `articles/game-curiosity/article.md`
 - ✅ サブスクは、契約した瞬間に解約しろ（投稿済 165844766）… `articles/subscription-cancel-immediately/article.md`
 - 📝 **非合理な行動の中にこそ、人生の本当の価値がひそんでる**（柱2の最上位テーマ／要・具体の錨）… `ideas/irrationality-value.md`
-- 📝 **モーニングページの気づき**（先延ばし＝本番化しすぎ／義務化vs習慣化・入口だけ／実体験）＝小シリーズ2-3本… `ideas/morning-pages.md`
+- ✅ モーニングページ小シリーズ3本投稿（①先延ばし=本番化 166261032 ②習慣は入口だけ 166261033 ③手法の正体 166261035）… `ideas/morning-pages.md`
 
 ## 柱3 🪑 会社員の生き方
 実存×共感の王道（40代に刺さる）。

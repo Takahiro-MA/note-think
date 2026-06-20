@@ -37,3 +37,6 @@ Last Updated: 2026-06-13
 | 12 | AI任せの開発で、頭でっかちにならないために | free | 0 | Published(下書きストック) | `articles/ai-dev-not-headheavy/article.md` | id:165844772 | 柱4・本職の権威 |
 | 13 | 「糖質制限してるのに痩せない」の正体は、脂質だった | free | 0 | Published(下書きストック) | `articles/fat-not-carbs/article.md` | id:165844775 | 柱2脂質・実ログ・薬機法配慮済 |
 | 14 | 「夕方になると疲れる」のは、年のせいじゃなかった | free | 0 | Published(下書きストック) | `articles/sober-evening-fatigue/article.md` | id:165844777 | 柱1断酒・実ログ・薬機法配慮済 |
+| 15 | 「準備が整ったら」は、たぶん一生来ない | free | 0 | Published(下書きストック) | `articles/start-imperfect/article.md` | id:166261032 | 柱2・モーニングページ小シリーズ①先延ばし＝本番化 |
+| 16 | 続かないのは、意志が弱いからじゃない。入口が重いからだ | free | 0 | Published(下書きストック) | `articles/habit-entrance/article.md` | id:166261033 | 柱2・小シリーズ②義務化vs習慣化・入口だけ |
+| 17 | モーニングページで「何も書けない」のは、たぶん正解だ | free | 0 | Published(下書きストック) | `articles/morning-pages-what-it-is/article.md` | id:166261035 | 柱2・小シリーズ③手法の正体・瞑想との違い |
