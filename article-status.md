@@ -40,3 +40,8 @@ Last Updated: 2026-06-13
 | 15 | 「準備が整ったら」は、たぶん一生来ない | free | 0 | Published(下書きストック) | `articles/start-imperfect/article.md` | id:166261032 | 柱2・モーニングページ小シリーズ①先延ばし＝本番化 |
 | 16 | 続かないのは、意志が弱いからじゃない。入口が重いからだ | free | 0 | Published(下書きストック) | `articles/habit-entrance/article.md` | id:166261033 | 柱2・小シリーズ②義務化vs習慣化・入口だけ |
 | 17 | モーニングページで「何も書けない」のは、たぶん正解だ | free | 0 | Published(下書きストック) | `articles/morning-pages-what-it-is/article.md` | id:166261035 | 柱2・小シリーズ③手法の正体・瞑想との違い |
+| 18 | 体組成計は、あなたの脂肪を測っていない | free | 0 | Published(下書きストック) | `articles/body-composition-scale-modes/article.md` | id:167071178 | 柱2身体クラスタ・SEO:体組成計/体脂肪率 |
+| 19 | デッドリフトで腰が痛くなる人は、腰で上げているのかもしれない | free | 0 | Published(下書きストック) | `articles/deadlift-hips-not-back/article.md` | id:167071179 | 柱2身体クラスタ・SEO:デッドリフト/腰/痛い |
+| 20 | 腹式呼吸ができないのは、横隔膜が固まっているからかもしれない | free | 0 | Published(下書きストック) | `articles/diaphragm-breathing/article.md` | id:167071183 | 柱2身体クラスタ・SEO:腹式呼吸/横隔膜 |
+| 21 | ストレッチは「運動のおまけ」じゃなかった | free | 0 | Published(下書きストック) | `articles/stretching-complements-strength/article.md` | id:167071184 | 柱2身体クラスタ・SEO:ストレッチ/筋トレ |
+| 22 | 正座をすると腰が整う気がするのは、気のせいじゃなかった | free | 0 | Published(下書きストック) | `articles/seiza-posture/article.md` | id:167071185 | 柱2身体クラスタ・SEO:正座/姿勢/骨盤 |

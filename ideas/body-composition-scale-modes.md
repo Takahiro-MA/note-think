@@ -1,5 +1,5 @@
 ---
-status: idea-draft
+status: done   # 記事化済み（投稿 167071178）
 series: 柱2（整える／効率を疑う）＝メタ視点「測定機器との付き合い方」
 source: 2026-06-25 Takahiro実体験
 voice: 締まったカジュアル

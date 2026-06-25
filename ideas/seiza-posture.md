@@ -1,5 +1,5 @@
 ---
-status: idea-draft
+status: done   # 記事化済み（投稿 167071185）
 series: 柱2（整える／身体と暮らしの実験）
 source: 2026-06-25 Takahiro実体験
 voice: 締まったカジュアル

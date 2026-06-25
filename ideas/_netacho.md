@@ -43,13 +43,13 @@
 - ✅ サブスクは、契約した瞬間に解約しろ（投稿済 165844766）… `articles/subscription-cancel-immediately/article.md`
 - 📝 **非合理な行動の中にこそ、人生の本当の価値がひそんでる**（柱2の最上位テーマ／要・具体の錨）… `ideas/irrationality-value.md`
 - ✅ モーニングページ小シリーズ3本投稿（①先延ばし=本番化 166261032 ②習慣は入口だけ 166261033 ③手法の正体 166261035）… `ideas/morning-pages.md`
-- 📝 **家庭用体組成計の「モード切り替え」問題**（数字の絶対値より仕組みへの納得感／ブラックボックスを信じる心理的コスト＝効率を疑う背骨）… `ideas/body-composition-scale-modes.md`
+- ✅ 体組成計は、あなたの脂肪を測っていない（投稿済 167071178）… `articles/body-composition-scale-modes/article.md`
 - 📝 **運動翌日の「遅発性ハンガーノック」**（ガス欠は運動中の症状という誤解／グリコーゲンは即日回復しない・中高年持久系に刺さる）… `ideas/delayed-hunger-knock.md`（脂質サブ）
-- 📝 **正座で「腰が整う」を掘ったら姿勢の話に**（違和感を観察し仮説を立て直すプロセス／良い姿勢＝違和感を読み解けるか）… `ideas/seiza-posture.md`
-- 📝 **整体で「横隔膜がガチガチ」→腹式呼吸を考え直した**（肺活量は伸びないが呼吸は深くできる／吐き切る≠絞り出す・論点15個の鉱脈）… `ideas/diaphragm-breathing.md`
-- 📝 **デッドリフトは「腰で上げる」種目じゃなかった**（見た目の動きと身体感覚のズレ／自分の使い方を勘違いしてた）… `ideas/deadlift-hips-not-back.md`
+- ✅ 正座をすると腰が整う気がするのは、気のせいじゃなかった（投稿済 167071185）… `articles/seiza-posture/article.md`
+- ✅ 腹式呼吸ができないのは、横隔膜が固まっているから（投稿済 167071183・論点15で続編可）… `articles/diaphragm-breathing/article.md`
+- ✅ デッドリフトで腰が痛くなる人は、腰で上げているのかも（投稿済 167071179）… `articles/deadlift-hips-not-back/article.md`
   - ↑ 正座・呼吸・体組成計・デッドリフトで**柱2に「身体を観察して仮説を立て直す」クラスタ**が形成中＝マガジン化候補（4本）
-- 📝 **ストレッチは「運動の下位互換」じゃなく筋トレを補完する**（鍛えると整える／柔軟性＝神経系が許すこと）… `ideas/stretching-complements-strength.md`
+- ✅ ストレッチは「運動のおまけ」じゃなかった（投稿済 167071184）… `articles/stretching-complements-strength/article.md`
 
 ## 柱3 🪑 会社員の生き方
 実存×共感の王道（40代に刺さる）。

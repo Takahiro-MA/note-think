@@ -1,5 +1,5 @@
 ---
-status: idea-draft
+status: done   # 記事化済み（投稿 167071183）
 series: 柱2（整える／身体と暮らしの実験・身体観察サブ）
 source: 2026-06-25 Takahiro実体験（整体で「横隔膜が硬い」と指摘された話）
 voice: 締まったカジュアル
