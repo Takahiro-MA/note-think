@@ -45,3 +45,8 @@ Last Updated: 2026-06-13
 | 20 | 腹式呼吸ができないのは、横隔膜が固まっているからかもしれない | free | 0 | Published(下書きストック) | `articles/diaphragm-breathing/article.md` | id:167071183 | 柱2身体クラスタ・SEO:腹式呼吸/横隔膜 |
 | 21 | ストレッチは「運動のおまけ」じゃなかった | free | 0 | Published(下書きストック) | `articles/stretching-complements-strength/article.md` | id:167071184 | 柱2身体クラスタ・SEO:ストレッチ/筋トレ |
 | 22 | 正座をすると腰が整う気がするのは、気のせいじゃなかった | free | 0 | Published(下書きストック) | `articles/seiza-posture/article.md` | id:167071185 | 柱2身体クラスタ・SEO:正座/姿勢/骨盤 |
+| 23 | 断酒は、我慢じゃなく投資だった | free | 0 | Published(下書きストック) | `articles/sobriety-investment/article.md` | id:167097050 | 柱1断酒・キャリア論の角度・実ログ |
+| 24 | 会社をやめたいわけじゃない。でも、会社にいる意味が… | free | 0 | Published(下書きストック) | `articles/meaning-of-company-job/article.md` | id:167097051 | 柱3・実存×共感・柱3初投稿 |
+| 25 | 子連れ海外旅行は「行きたい国」より「親が消耗しない国」で選ぶ | free | 0 | Published(下書きストック) | `articles/kids-overseas-travel/article.md` | id:167097053 | 柱3・双子の一次性・SEO:子連れ/海外旅行 |
+| 26 | AIにテストを書かせる前に、仕様を書け | free | 0 | Published(下書きストック) | `articles/test-from-spec/article.md` | id:167097055 | 柱4・本職・SEO:テスト/仕様/AI |
+| 27 | 競馬で学んだ、当てるより「価格の歪み」を探すこと | free | 0 | Published(下書きストック) | `articles/odds-edge-decision/article.md` | id:167097058 | 雑多/意思決定・期待値論・規約配慮 |

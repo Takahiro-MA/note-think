@@ -1,5 +1,5 @@
 ---
-status: idea-draft
+status: done   # 記事化済み（投稿 167097053）
 series: 柱3寄り（生き方・子育て・価値観）／旅は雑多持ち札
 source: 2026-06-25 Takahiro（子連れ海外旅行の判断軸）
 voice: 締まったカジュアル
