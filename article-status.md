@@ -50,4 +50,4 @@ Last Updated: 2026-06-13
 | 25 | 子連れ海外旅行は「行きたい国」より「親が消耗しない国」で選ぶ | free | 0 | Published(下書きストック) | `articles/kids-overseas-travel/article.md` | id:167097053 | 柱3・双子の一次性・SEO:子連れ/海外旅行 |
 | 26 | AIにテストを書かせる前に、仕様を書け | free | 0 | Published(下書きストック) | `articles/test-from-spec/article.md` | id:167097055 | 柱4・本職・SEO:テスト/仕様/AI |
 | 27 | 競馬で学んだ、当てるより「価格の歪み」を探すこと | free | 0 | Published(下書きストック) | `articles/odds-edge-decision/article.md` | id:167097058 | 雑多/意思決定・期待値論・規約配慮 |
-| 28 | 日本はレジェンドに冷たいんじゃない。現役晩年を「味わう」のが下手なだけだ | free | 0 | Published(下書きストック) | `articles/legend-twilight-sports/article.md` | id:167098683 | 柱2効率を疑う・時事(長友)・★試合事実は要確認 |
+| 28 | 長友批判で考えた——日本はレジェンドに冷たいんじゃなく、現役晩年を「味わう」のが下手なだけだ | free | 0 | Published(下書きストック) | `articles/legend-twilight-sports/article.md` | id:167098683 | 柱2効率を疑う・時事(長友)・★試合事実は要確認 |
