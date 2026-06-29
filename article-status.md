@@ -33,8 +33,8 @@ Last Updated: 2026-06-13
 | 8 | 断酒して、サイゼがもっと好きになった | free | 0 | Published | `articles/sober-saizeriya/article.md` | https://note.com/notes/n4e582f275712/edit | **柱1断酒・初投稿**。締まったカジュアル文体の初適用。軽い入口 |
 | 9 | 言いたいことも英語で言えない、こんな世の中じゃ、ポイズン | free | 0 | Published | `articles/english-in-ai-era/article.md` | https://note.com/notes/n1d87de11f7f9/edit | **柱4・論考**。AI翻訳逆張り＋帯域論＋オフライン。POISONタイトル(40代狙い)。締めはローカルA案・note側はユーザー修正 |
 | 10 | サブスクは、契約した瞬間に解約しろ | free | 0 | Published(下書きストック) | `articles/subscription-cancel-immediately/article.md` | id:165844766 | 柱2・実用ライフハック |
-| 11 | ゲームを楽しめる人は、好奇心が死んでいない | free | 0 | Published(下書きストック) | `articles/game-curiosity/article.md` | id:165844769 | 柱2・タイパ逆張り論考 |
-| 12 | AI任せの開発で、頭でっかちにならないために | free | 0 | Published(下書きストック) | `articles/ai-dev-not-headheavy/article.md` | id:165844772 | 柱4・本職の権威 |
+| 11 | ゲームを楽しめなくなったのは、大人になったからじゃない | free | 0 | Published(下書きストック) | `articles/game-curiosity/article.md` | id:165844769 | 柱2・タイパ逆張り論考 |
+| 12 | AIにコードを書かせるほど、自分が「分かっていない」と気づいた | free | 0 | Published(下書きストック) | `articles/ai-dev-not-headheavy/article.md` | id:165844772 | 柱4・本職の権威 |
 | 13 | 「糖質制限してるのに痩せない」の正体は、脂質だった | free | 0 | Published(下書きストック) | `articles/fat-not-carbs/article.md` | id:165844775 | 柱2脂質・実ログ・薬機法配慮済 |
 | 14 | 「夕方になると疲れる」のは、年のせいじゃなかった | free | 0 | Published(下書きストック) | `articles/sober-evening-fatigue/article.md` | id:165844777 | 柱1断酒・実ログ・薬機法配慮済 |
 | 15 | 「準備が整ったら」は、たぶん一生来ない | free | 0 | Published(下書きストック) | `articles/start-imperfect/article.md` | id:166261032 | 柱2・モーニングページ小シリーズ①先延ばし＝本番化 |
@@ -43,12 +43,12 @@ Last Updated: 2026-06-13
 | 18 | 体組成計は、あなたの脂肪を測っていない | free | 0 | Published(下書きストック) | `articles/body-composition-scale-modes/article.md` | id:167071178 | 柱2身体クラスタ・SEO:体組成計/体脂肪率 |
 | 19 | デッドリフトで腰が痛くなる人は、腰で上げているのかもしれない | free | 0 | Published(下書きストック) | `articles/deadlift-hips-not-back/article.md` | id:167071179 | 柱2身体クラスタ・SEO:デッドリフト/腰/痛い |
 | 20 | 腹式呼吸ができないのは、横隔膜が固まっているからかもしれない | free | 0 | Published(下書きストック) | `articles/diaphragm-breathing/article.md` | id:167071183 | 柱2身体クラスタ・SEO:腹式呼吸/横隔膜 |
-| 21 | ストレッチは「運動のおまけ」じゃなかった | free | 0 | Published(下書きストック) | `articles/stretching-complements-strength/article.md` | id:167071184 | 柱2身体クラスタ・SEO:ストレッチ/筋トレ |
+| 21 | 筋トレの効果が頭打ちなら、犯人はストレッチ不足かもしれない | free | 0 | Published(下書きストック) | `articles/stretching-complements-strength/article.md` | id:167071184 | 柱2身体クラスタ・SEO:ストレッチ/筋トレ |
 | 22 | 正座をすると腰が整う気がするのは、気のせいじゃなかった | free | 0 | Published(下書きストック) | `articles/seiza-posture/article.md` | id:167071185 | 柱2身体クラスタ・SEO:正座/姿勢/骨盤 |
 | 23 | 断酒は、我慢じゃなく投資だった | free | 0 | Published(下書きストック) | `articles/sobriety-investment/article.md` | id:167097050 | 柱1断酒・キャリア論の角度・実ログ |
 | 24 | 会社をやめたいわけじゃない。でも、会社にいる意味が… | free | 0 | Published(下書きストック) | `articles/meaning-of-company-job/article.md` | id:167097051 | 柱3・実存×共感・柱3初投稿 |
 | 25 | 子連れ海外旅行は「行きたい国」より「親が消耗しない国」で選ぶ | free | 0 | Published(下書きストック) | `articles/kids-overseas-travel/article.md` | id:167097053 | 柱3・双子の一次性・SEO:子連れ/海外旅行 |
 | 26 | AIにテストを書かせる前に、仕様を書け | free | 0 | Published(下書きストック) | `articles/test-from-spec/article.md` | id:167097055 | 柱4・本職・SEO:テスト/仕様/AI |
-| 27 | 競馬で学んだ、当てるより「価格の歪み」を探すこと | free | 0 | Published(下書きストック) | `articles/odds-edge-decision/article.md` | id:167097058 | 雑多/意思決定・期待値論・規約配慮 |
+| 27 | 競馬で勝てないのは、「当てよう」としすぎているからだ | free | 0 | Published(下書きストック) | `articles/odds-edge-decision/article.md` | id:167097058 | 雑多/意思決定・期待値論・規約配慮 |
 | 28 | 長友批判で考えた——日本はレジェンドに冷たいんじゃなく、現役晩年を「味わう」のが下手なだけだ | free | 0 | Published(下書きストック) | `articles/legend-twilight-sports/article.md` | id:167098683 | 柱2効率を疑う・時事(長友)・★試合事実は要確認 |
 | 29 | ワールドカップに腹が立つ。それでも、見てしまう | free | 0 | Published(下書きストック) | `articles/worldcup-commercialism/article.md` | id:167396197 | 柱2効率を疑う×柱3好きとの距離・時事(W杯商業主義)・長友記事の姉妹／タイトル変更(note側は手動修正) |
