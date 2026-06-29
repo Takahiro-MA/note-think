@@ -1,5 +1,5 @@
 ---
-status: idea-draft
+status: done   # 記事化済み（投稿 167734302）
 series: 雑多コラム（サッカー観戦）・時事／普遍テーマは柱2/4寄り（一つの型 vs 複数の引き出し）
 source: 2026-06-30 Takahiro（日本対ブラジル戦の観戦）
 voice: 締まったカジュアル
