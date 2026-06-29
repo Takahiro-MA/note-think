@@ -52,4 +52,4 @@ Last Updated: 2026-06-13
 | 27 | 競馬で勝てないのは、「当てよう」としすぎているからだ | free | 0 | Published(下書きストック) | `articles/odds-edge-decision/article.md` | id:167097058 | 雑多/意思決定・期待値論・規約配慮 |
 | 28 | 長友批判で考えた——日本はレジェンドに冷たいんじゃなく、現役晩年を「味わう」のが下手なだけだ | free | 0 | Published(下書きストック) | `articles/legend-twilight-sports/article.md` | id:167098683 | 柱2効率を疑う・時事(長友)・★試合事実は要確認 |
 | 29 | ワールドカップに腹が立つ。それでも、見てしまう | free | 0 | Published(下書きストック) | `articles/worldcup-commercialism/article.md` | id:167396197 | 柱2効率を疑う×柱3好きとの距離・時事(W杯商業主義)・長友記事の姉妹／タイトル変更(note側は手動修正) |
-| 30 | 日本はブラジルに善戦したんじゃない。勝ち筋を握りかけて、負けた | free | 0 | Published(下書きストック) | `articles/japan-brazil-depth/article.md` | id:167734302 | 雑多サッカー観戦・時事(日本×ブラジル)・★試合事実要確認 |
+| 30 | 日本はブラジルに、勝ち筋を握りかけた。負けたのは、個の差じゃない | free | 0 | Published(下書きストック) | `articles/japan-brazil-depth/article.md` | id:167734302 | 雑多サッカー観戦・時事(日本×ブラジル)・★試合事実要確認 |
