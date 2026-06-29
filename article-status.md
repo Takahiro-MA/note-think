@@ -51,4 +51,4 @@ Last Updated: 2026-06-13
 | 26 | AIにテストを書かせる前に、仕様を書け | free | 0 | Published(下書きストック) | `articles/test-from-spec/article.md` | id:167097055 | 柱4・本職・SEO:テスト/仕様/AI |
 | 27 | 競馬で学んだ、当てるより「価格の歪み」を探すこと | free | 0 | Published(下書きストック) | `articles/odds-edge-decision/article.md` | id:167097058 | 雑多/意思決定・期待値論・規約配慮 |
 | 28 | 長友批判で考えた——日本はレジェンドに冷たいんじゃなく、現役晩年を「味わう」のが下手なだけだ | free | 0 | Published(下書きストック) | `articles/legend-twilight-sports/article.md` | id:167098683 | 柱2効率を疑う・時事(長友)・★試合事実は要確認 |
-| 29 | ワールドカップが、遠い聖地から巨大ショッピングモールになっていく | free | 0 | Published(下書きストック) | `articles/worldcup-commercialism/article.md` | id:167396197 | 柱2効率を疑う×柱3好きとの距離・時事(W杯商業主義)・長友記事の姉妹 |
+| 29 | ワールドカップに腹が立つ。それでも、見てしまう | free | 0 | Published(下書きストック) | `articles/worldcup-commercialism/article.md` | id:167396197 | 柱2効率を疑う×柱3好きとの距離・時事(W杯商業主義)・長友記事の姉妹／タイトル変更(note側は手動修正) |
