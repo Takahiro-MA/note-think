@@ -19,6 +19,7 @@ cd /home/takahiroma/noah-workspace
 python3 -m note_poster check                          # セッション有効性チェック
 python3 -m note_poster list                           # 下書き一覧
 python3 -m note_poster draft "タイトル" article.md    # 下書き作成
+python3 -m note_poster stats 30                       # アクセス統計（直近30日・定点観測）
 ```
 
 ## Current state

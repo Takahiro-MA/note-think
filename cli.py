@@ -12,6 +12,9 @@ note.com 投稿 CLI
     # 下書き一覧
     python -m note_poster.cli list
 
+    # アクセス統計（定点観測。引数=直近N日、デフォルト30）
+    python -m note_poster.cli stats [days]
+
     # セッションCookie更新
     python -m note_poster.cli update-cookie "新しいCookie値"
 """
@@ -69,6 +72,42 @@ def cmd_list():
         print(f"  [{d['id']}] {d['title']}")
 
 
+def cmd_stats(days: int = 30):
+    """アクセス統計（定点観測用）: 全期間合計＋直近N日の記事別PV/スキ/スキ率"""
+    from datetime import datetime, timedelta, timezone
+
+    client = NoteClient()
+    stats = client.get_stats(filter="all")
+    articles = stats["articles"]
+    print(f"全期間: {len(articles)}記事 / PV {stats['total_pv']:,} / スキ {stats['total_like']:,} "
+          f"/ スキ率 {stats['total_like'] / max(stats['total_pv'], 1) * 100:.1f}%")
+
+    cut = datetime.now(timezone(timedelta(hours=9))) - timedelta(days=days)
+    recent = []
+    for a in articles:
+        try:
+            d = datetime.fromisoformat(a["publish_at"].replace("Z", "+00:00"))
+        except (ValueError, AttributeError):
+            continue
+        if d >= cut:
+            recent.append({**a, "date": d})
+    recent.sort(key=lambda a: a["date"])
+
+    if not recent:
+        print(f"直近{days}日の公開記事はありません")
+        return
+    reads = sorted(a["read"] for a in recent)
+    median = reads[len(reads) // 2]
+    total_read = sum(a["read"] for a in recent)
+    total_like = sum(a["like"] for a in recent)
+    print(f"直近{days}日: {len(recent)}記事 / PV {total_read:,}（中央値 {median}） / スキ {total_like} "
+          f"/ スキ率 {total_like / max(total_read, 1) * 100:.1f}%")
+    print(f"\n{'公開':5} {'PV':>6} {'スキ':>4} {'率%':>6}  タイトル")
+    for a in recent:
+        rate = a["like"] / a["read"] * 100 if a["read"] else 0
+        print(f"{a['date'].strftime('%m/%d'):5} {a['read']:>6} {a['like']:>4} {rate:>6.1f}  {a['title'][:42]}")
+
+
 def cmd_update_cookie(value: str):
     """セッションCookie更新"""
     update_session_cookie(value)
@@ -99,6 +138,9 @@ def main():
             cmd_update(sys.argv[2], sys.argv[3], sys.argv[4])
         case "list":
             cmd_list()
+        case "stats":
+            days = int(sys.argv[2]) if len(sys.argv) > 2 else 30
+            cmd_stats(days)
         case "update-cookie":
             if len(sys.argv) < 3:
                 print("使い方: cli.py update-cookie <cookie値>")

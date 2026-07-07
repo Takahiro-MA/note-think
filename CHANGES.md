@@ -1,4 +1,20 @@
-# CHANGES.md — 再設計（redesign-2026-07）の変更記録
+# CHANGES.md — note_poster 変更記録
+
+## 2026-07-07 月次レビュー反映（1ヶ月連続投稿の振り返り）
+
+分析: `notes/2026-07-07-monthly-review.md`（実データ: PVの主因は露出ゼロ、スキ率は高い）
+
+- `client.py` / `cli.py`: **`stats` コマンド新設**（定点観測用。全期間合計＋直近N日の記事別PV/スキ/スキ率。
+  非公開統計API `/api/v1/stats/pv` を使用）。E2E動作確認済み
+- `.claude/commands/title.md`: **検索語の必須化**節を追加（候補10本中5本は検索語入り・
+  採点に第4観点「検索語」追加・流入記事では検索語△を落とす）
+- `style_guide.md`: **§2.5「エッジの規律」新設**（1行要約テスト・敵の名指し・具体の毒・
+  反転1回・断定着地の5規律）＋品質チェックリストに4項目追加
+- `.claude/commands/article.md`: ステップ2に**エッジ検査（出力前必須）**を追加
+
+---
+
+# 以下: 再設計（redesign-2026-07）の変更記録
 
 計画: `/home/takahiroma/REDESIGN_PLAN.md` §5.1（Phase 2）。ブランチ: `redesign-2026-07`。
 

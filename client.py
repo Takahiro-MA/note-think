@@ -154,3 +154,70 @@ class NoteClient:
             }
             for n in data.get("data", {}).get("notes", [])
         ]
+
+    def get_stats(self, filter: str = "all") -> dict:
+        """ダッシュボードのアクセス統計を取得（全ページ集約）
+
+        Args:
+            filter: "all" | "week" | "month"
+
+        Returns:
+            {"total_pv": int, "total_like": int, "total_comment": int,
+             "articles": [{"key", "title", "read", "like", "comment", "publish_at"}, ...]}
+        """
+        import time
+
+        articles: list[dict] = []
+        totals = {"total_pv": 0, "total_like": 0, "total_comment": 0}
+        page = 1
+        while True:
+            resp = self.session.get(
+                f"{NOTE_API_BASE}/stats/pv",
+                params={"filter": filter, "page": page, "sort": "pv"},
+            )
+            if resp.status_code != 200:
+                break
+            data = resp.json().get("data", {})
+            totals = {
+                "total_pv": data.get("total_pv", 0),
+                "total_like": data.get("total_like", 0),
+                "total_comment": data.get("total_comment", 0),
+            }
+            articles += [
+                {
+                    "key": s.get("key"),
+                    "title": s.get("name"),
+                    "read": s.get("read_count", 0),
+                    "like": s.get("like_count", 0),
+                    "comment": s.get("comment_count", 0),
+                }
+                for s in data.get("note_stats", [])
+            ]
+            if data.get("last_page") or page >= 20:
+                break
+            page += 1
+            time.sleep(0.4)
+
+        # 公開日を published 一覧から結合
+        publish_at: dict[str, str] = {}
+        page = 1
+        while True:
+            resp = self.session.get(
+                f"{NOTE_API_BASE.replace('/v1', '/v2')}/note_list/contents",
+                params={"status": "published", "page": page},
+            )
+            if resp.status_code != 200:
+                break
+            data = resp.json().get("data", {})
+            notes = data.get("notes", [])
+            if not notes:
+                break
+            for n in notes:
+                publish_at[n.get("key")] = n.get("publish_at") or n.get("publishAt") or ""
+            if data.get("is_last_page") or data.get("isLastPage") or page >= 20:
+                break
+            page += 1
+            time.sleep(0.4)
+        for a in articles:
+            a["publish_at"] = publish_at.get(a["key"], "")
+        return {**totals, "articles": articles}
