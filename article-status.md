@@ -59,3 +59,4 @@ Last Updated: 2026-07-07
 | 33 | バグの数でエンジニアを評価する会社は、たぶん危ない | free | 0 | Published(下書きストック) | `articles/bug-count-evaluation/article.md` | id:168217432 | 柱4・本職・品質管理論 |
 | 34 | ハンガーノックは、運動中じゃなく「翌日」に来ることがある | free | 0 | Published(下書きストック) | `articles/delayed-hunger-knock/article.md` | id:168217437 | 柱2体づくり・実ログ・薬機法配慮 |
 | 35 | 楽しいことを、日々のタスクにしてはいけない | free | 0 | Published(下書きストック) | `articles/dont-taskify-joy/article.md` | id:168217439 | 柱2効率を疑う |
+| 36 | 昼食後のだるさ、犯人は血糖値だけじゃなかった——Garminのストレス値でバレた「油」 | free | 0 | Published(下書きストック) | `articles/fried-lunch-garmin-stress/article.md` | id:168895414 | 柱2身体/脂質サブ・実ログ章17/42・薬機法配慮済・**新プロセス初適用**（検索語タイトル＋エッジ規律） |
