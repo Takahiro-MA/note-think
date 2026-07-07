@@ -5,40 +5,48 @@ note.com（非公式API）を使った記事の自動生成・下書き投稿ツ
 
 ## ディレクトリ構成
 
+パスはホストでは `/home/takahiroma/noah-workspace/note_poster/`、Noahコンテナ内では `/workspace/note_poster/`（同一実体）。
+
 ```
-/workspace/note_poster/
+note_poster/
 ├── README.md              ← このファイル
-├── style_guide.md         ← 記事生成のスタイルガイド（文体・構成・トーン）
-├── config.py              ← API設定、ヘッダー、Cookie読み込み
-├── auth.py                ← セッション管理、有効性チェック
-├── client.py              ← note.com APIクライアント（作成・保存・一覧）
-├── cli.py                 ← CLIツール
-├── __init__.py
-├── __main__.py
+├── CLAUDE.md              ← プロジェクト憲章（実行環境の正典・パイプライン）
+├── style_guide.md         ← 記事生成のスタイルガイド v2（文体・構成・トーン）
+├── article-status.md      ← 全記事の状態管理台帳
+├── articles/              ← 記事本体（articles/<slug>/article.md）
+├── ideas/                 ← ネタ帳（_netacho.md=地図 / _self-inventory.md=人物像）
+├── knowledge/             ← 売れる形・設計ドキュメント
+├── .claude/commands/      ← /article /title /check-compliance /review /publish
+├── config.py / auth.py / client.py / cli.py  ← CLI実装
 ├── cookies.json           ← 認証Cookie（手動更新）★秘密情報
-├── drafts/                ← 生成した記事のMarkdownファイル
+├── drafts/                ← 旧v1時代の下書き（参考資料）
 └── test_connection.py     ← 接続テスト
 ```
 
 ## 環境
 
-- Python 3.11 (venv: `/workspace/.venv`)
-- 依存: `requests`, `markdown`（`/workspace/.venv/bin/pip`で管理）
+実行パスの正典は `CLAUDE.md`「実行環境」節。
+
+- **ホスト**: `cd /home/takahiroma/noah-workspace && python3 -m note_poster <cmd>`
+- **Noahコンテナ**: `/workspace/.venv/bin/python -m note_poster <cmd>`（Python 3.11 venv）
+- 依存: `requests`, `markdown`
 
 ## CLI使い方
 
 ```bash
+# 以下はホスト表記（コンテナ内は python3 → /workspace/.venv/bin/python に読み替え）
+
 # セッション有効性チェック
-/workspace/.venv/bin/python -m note_poster check
+python3 -m note_poster check
 
 # 下書き一覧
-/workspace/.venv/bin/python -m note_poster list
+python3 -m note_poster list
 
 # Markdownファイルから下書き作成
-/workspace/.venv/bin/python -m note_poster draft "タイトル" article.md
+python3 -m note_poster draft "タイトル" article.md
 
 # Cookie更新（期限切れ時）
-/workspace/.venv/bin/python -m note_poster update-cookie "新しいCookie値"
+python3 -m note_poster update-cookie "新しいCookie値"
 ```
 
 ## 認証
@@ -72,28 +80,19 @@ note.com（非公式API）を使った記事の自動生成・下書き投稿ツ
 ### スケジューラー経由（自動）
 1. scheduler-state.json の `note-daily-post` ジョブが毎朝8時(JST)に発火
 2. agentTurnが起動し、以下を実行:
-   a. `/workspace/note_poster/style_guide.md` を読む
-   b. 曜日に応じたテーマを選択（ローテーション表参照）
+   a. `style_guide.md`（v2）と `ideas/_netacho.md` を読む
+   b. テーマを `ideas/_netacho.md` の4柱（断酒／身体と暮らし／会社員／AI）＋雑多から選択
    c. 記事を生成
    d. note APIで下書き投稿
    e. Slackで通知（タイトルとedit URL）
 
-### 手動
-1. `python -m note_poster check` でセッション確認
-2. Markdownファイルを作成
-3. `python -m note_poster draft "タイトル" file.md` で下書き投稿
+### 手動（推奨: `.claude/commands/` のパイプライン）
+1. `/article <ネタ>` → `/check-compliance` → `/publish`（詳細は `CLAUDE.md`）
+2. CLI直接なら: `check` でセッション確認 → Markdown作成 → `draft` で下書き投稿
 
-## テーマローテーション
+## テーマ選定
 
-| 曜日 | テーマ |
-|------|--------|
-| 月・木 | AI・テック考察 |
-| 火・金 | ガジェット・プロダクト論 |
-| 水・土 | 働き方・思考法 |
-| 日 | ツール・ライフハック |
-| 週1回（金 or 土） | アフィリエイト比較記事（ガジェット枠と兼用） |
-
-詳細は `style_guide.md` を参照。
+テーマの正典は `ideas/_netacho.md` の4柱＋雑多コラム（曜日ローテーションは廃止済み・2026-06）。
 
 ## アフィリエイト比較記事
 

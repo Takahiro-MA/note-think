@@ -20,7 +20,7 @@ description: 記事を公開前チェック→人間承認→note下書き投稿
    ```bash
    cd /home/takahiroma/noah-workspace && python3 -m note_poster draft "<タイトル>" <本文ファイル>
    ```
-   - ※ ホストでは `python3`（`/workspace/.venv/bin/python` ではない）。
+   - ※ 実行パスの正典は `CLAUDE.md`「実行環境」節（上記はホスト用。コンテナ内は `/workspace/.venv/bin/python`）。
    - ※ フロントマターと `<!-- 有料ライン -->` は本文に含めない一時ファイルを作って投稿する。
    - ※ note APIは下書き保存のみ。**無料/有料の分割と価格設定は note編集画面で人が行う**（投稿後にURLを案内し、分割点の位置を伝える）。
 

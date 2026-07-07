@@ -1,8 +1,9 @@
 # 記事ステータス一覧
 
-Last Updated: 2026-06-13
+Last Updated: 2026-07-07
 
 軽量フロー（カジュアルnote向け）。詳細は `knowledge/04_integrated_design.md`。
+**更新ルール**: `/publish` 実行時に必ず本ファイルを更新する（行追記 or Phase更新＋`Last Updated` 書き換え）。
 
 ## Phase 凡例
 | Phase | 意味 |
@@ -10,11 +11,11 @@ Last Updated: 2026-06-13
 | 初稿 | `/article` でネタ採点→5行設計→初稿執筆まで完了 |
 | Compliance | `/check-compliance` PASS |
 | Reviewed | （任意）`/review` 反映済み。有料主力のみ |
-| Published | `/publish` で下書き投稿済み |
+| Published | `/publish` で下書き投稿済み（URL付き） |
+| Published(下書きストック) | 下書き投稿済み。note上での公開操作は未実施（ストック） |
 
 ## アイデア／ドラフト（仕上げ前・未投稿）
-- **断酒シリーズ**（柱テーマ候補）: `ideas/_sobriety-series.md`
-  - `ideas/sober-saizeriya.md` — 「断酒して気づいたサイゼの良さ」雑談ドラフト保存済み（仕上げ待ち）
+- ネタ・ドラフトの現況は `ideas/_netacho.md`（全ネタの地図）が正典。ここには複製しない。
 
 ## note_id（上書き更新 `python3 -m note_poster update <id> "<title>" <file>` 用）
 - 165032044=イヤホン / 165051961=AI / 165051963=ガジェット / 165051967=考える時間 / 165051969=タスク管理
