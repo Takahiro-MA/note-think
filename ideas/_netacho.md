@@ -43,6 +43,8 @@
 - ✅ ゲームを楽しめる人は、好奇心が死んでいない（投稿済 165844769）… `articles/game-curiosity/article.md`
 - ✅ サブスクは、契約した瞬間に解約しろ（投稿済 165844766）… `articles/subscription-cancel-immediately/article.md`
 - 📝 **非合理な行動の中にこそ、人生の本当の価値がひそんでる**（柱2の最上位テーマ／要・具体の錨）… `ideas/irrationality-value.md`
+- 📝 **推しのある生活と、愛着が育つ余白**（推し＝愛着は効率化しない余白の副産物／本質だけ見ると世界が痩せる）… `ideas/oshi-attachment-margin.md`
+  - ↑ ✅ゲーム(好奇心) ✅楽しみをタスク化するな 📝非合理 📝推し＝**「効率/タイパが奪う余白」クラスタ**（柱2背骨・マガジン化候補）
 - ✅ モーニングページ小シリーズ3本投稿（①先延ばし=本番化 166261032 ②習慣は入口だけ 166261033 ③手法の正体 166261035）… `ideas/morning-pages.md`
 - ✅ 体組成計は、あなたの脂肪を測っていない（投稿済 167071178）… `articles/body-composition-scale-modes/article.md`
 - 📝 **運動翌日の「遅発性ハンガーノック」**（ガス欠は運動中の症状という誤解／グリコーゲンは即日回復しない・中高年持久系に刺さる）… `ideas/delayed-hunger-knock.md`（脂質サブ）
