@@ -1,5 +1,5 @@
 ---
-status: idea-draft
+status: done   # 記事化・下書き投稿済み（169679854）
 series: 柱3寄り（生き方・お金・暮らしの価値観）／一部 雑多コラム(旅)
 source: 2026-06-25 Takahiro（円安時代の海外旅行・移住感覚の変化）
 voice: 締まったカジュアル

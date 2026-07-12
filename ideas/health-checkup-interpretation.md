@@ -1,5 +1,5 @@
 ---
-status: idea-draft
+status: done   # 記事化・下書き投稿済み（169679847）
 series: 柱2（整える／効率を疑う）＝flagship。CGM/HRV/体組成の自己実験系の親玉
 source: 2026-06-26 Takahiro（議論の骨格）
 voice: 締まったカジュアル（論考＝registerやや締める）

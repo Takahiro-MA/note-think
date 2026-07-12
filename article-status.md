@@ -1,6 +1,6 @@
 # 記事ステータス一覧
 
-Last Updated: 2026-07-07
+Last Updated: 2026-07-12
 
 軽量フロー（カジュアルnote向け）。詳細は `knowledge/04_integrated_design.md`。
 **更新ルール**: `/publish` 実行時に必ず本ファイルを更新する（行追記 or Phase更新＋`Last Updated` 書き換え）。
@@ -60,3 +60,13 @@ Last Updated: 2026-07-07
 | 34 | ハンガーノックは、運動中じゃなく「翌日」に来ることがある | free | 0 | Published(下書きストック) | `articles/delayed-hunger-knock/article.md` | id:168217437 | 柱2体づくり・実ログ・薬機法配慮 |
 | 35 | 楽しいことを、日々のタスクにしてはいけない | free | 0 | Published(下書きストック) | `articles/dont-taskify-joy/article.md` | id:168217439 | 柱2効率を疑う |
 | 36 | 昼食後のだるさ、犯人は血糖値だけじゃなかった——Garminのストレス値でバレた「油」 | free | 0 | Published(下書きストック) | `articles/fried-lunch-garmin-stress/article.md` | id:168895414 | 柱2身体/脂質サブ・実ログ章17/42・薬機法配慮済・**新プロセス初適用**（検索語タイトル＋エッジ規律） |
+| 37 | 健康診断は無駄なのか——「平均から外れたら異常」の手前で止まって考えた | free | 0 | Published(下書きストック) | `articles/health-checkup-interpretation/article.md` | id:169679847 | 柱2効率を疑うflagship・⚠️医療最センシティブ（コクランは紹介止め/断定回避/免責付）・SEO:健康診断 |
+| 38 | 非合理を全部そぎ落として最適化した先に、なぜか何も残らなかった話 | free | 0 | Published(下書きストック) | `articles/irrationality-value/article.md` | id:169679848 | 柱2最上位・非合理の価値・錨=ギター/釣り/真空管 |
+| 39 | 「推しがいる人」がうらやましいなら、たぶん足りないのは"余白"だ | free | 0 | Published(下書きストック) | `articles/oshi-attachment-margin/article.md` | id:169679849 | 柱2余白クラスタ・推し=愛着・SEO:推し／★娘の描写の出し方は公開前に本人確認 |
+| 40 | MCTオイルで「脂肪燃焼体質」になる、は言い過ぎだった——問題は油じゃなかった | free | 0 | Published(下書きストック) | `articles/mct-fat-burn-myth/article.md` | id:169679850 | 柱2脂質サブ・⚠️薬機法特に厳格（ANTI-hype/効能断定なし/免責付）・SEO:MCTオイル/脂肪燃焼 |
+| 41 | 「まあまあ美味しい」コーヒーの違和感の正体——自家焙煎の豆で気づいたこと | free | 0 | Published(下書きストック) | `articles/coffee-bean-discomfort/article.md` | id:169679851 | 柱2違和感・サイゼと地続き・SEO:コーヒー/自家焙煎 |
+| 42 | デッドリフトの「股関節で畳む」が、頭では分かって身体で分からなかった話 | free | 0 | Published(下書きストック) | `articles/deadlift-hip-hinge-feel/article.md` | id:169679853 | 柱2身体観察・#19と芯を書き分け（見た目≠身体感覚）・SEO:デッドリフト/股関節 |
+| 43 | 円安で「海外は安い」が崩れた今、世界一コスパがいいのは日本の地方都市かもしれない | free | 0 | Published(下書きストック) | `articles/yen-weak-travel/article.md` | id:169679854 | 柱3旅/お金・山形コスパで差別化・国名フラット・SEO:円安/海外 |
+| 44 | AIに消えるのはエンジニアじゃない。「コードが出ればシステム」という幻想だ | free | 0 | Published(下書きストック) | `articles/ai-engineer-value/article.md` | id:169679856 | 柱4本職・ML/DNN切り分けが差別化・SEO:AI/エンジニア |
+| 45 | 生産性で人間の価値は測れない——AIに負けて初めて見えた、本当に問われるもの | free | 0 | Published(下書きストック) | `articles/value-beyond-productivity/article.md` | id:169679857 | 柱4横断・生産性でない・#44/英語記事とミニクラスタ・SEO:生産性 |
+| 46 | ストイックを、履き違えていた——規律は目的になった瞬間、自分を罰する装置になる | free | 0 | Published(下書きストック) | `articles/stoicism-misused/article.md` | id:169679858 | 柱2規律の罠・#35(楽しみ側)と芯を書き分け・SEO:ストイック |

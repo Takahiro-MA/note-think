@@ -1,5 +1,5 @@
 ---
-status: idea-draft
+status: done   # 記事化・下書き投稿済み（169679848）
 series: 柱2（効率を疑う）／本人の哲学的な核
 source: 2026-06-18 Takahiro（持論）
 voice: 締まったカジュアル

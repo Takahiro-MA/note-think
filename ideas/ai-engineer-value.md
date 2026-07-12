@@ -1,5 +1,5 @@
 ---
-status: idea-draft
+status: done   # 記事化・下書き投稿済み（169679856）
 series: 柱4（AIとどう働くか／本職）
 type: 検索型寄り（AI/エンジニア/不要 は検索語）＋論考。流入も狙える
 source: 2026-07-10 Takahiro（AI時代にエンジニアは不要か）
