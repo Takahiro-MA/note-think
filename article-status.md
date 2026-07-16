@@ -1,6 +1,6 @@
 # 記事ステータス一覧
 
-Last Updated: 2026-07-12
+Last Updated: 2026-07-17
 
 軽量フロー（カジュアルnote向け）。詳細は `knowledge/04_integrated_design.md`。
 **更新ルール**: `/publish` 実行時に必ず本ファイルを更新する（行追記 or Phase更新＋`Last Updated` 書き換え）。
@@ -70,3 +70,5 @@ Last Updated: 2026-07-12
 | 44 | AIに消えるのはエンジニアじゃない。「コードが出ればシステム」という幻想だ | free | 0 | Published(下書きストック) | `articles/ai-engineer-value/article.md` | id:169679856 | 柱4本職・ML/DNN切り分けが差別化・SEO:AI/エンジニア |
 | 45 | 生産性で人間の価値は測れない——AIに負けて初めて見えた、本当に問われるもの | free | 0 | Published(下書きストック) | `articles/value-beyond-productivity/article.md` | id:169679857 | 柱4横断・生産性でない・#44/英語記事とミニクラスタ・SEO:生産性 |
 | 46 | ストイックを、履き違えていた——規律は目的になった瞬間、自分を罰する装置になる | free | 0 | Published(下書きストック) | `articles/stoicism-misused/article.md` | id:169679858 | 柱2規律の罠・#35(楽しみ側)と芯を書き分け・SEO:ストイック |
+| 47 | ゴールの快感は、ゴールそのものにはなかった——サッカーを生中継で見たい本当の理由 | free | 0 | Published(下書きストック) | `articles/football-liveness-time/article.md` | id:170411327 | ⚽観戦の現在性/揮発性・**W杯開催中のタイムリー**・柱2「意味を必要としない時間」と接続・固有名詞なし（体感中心） |
+| 48 | 20年ぶりに欧州サッカーへ戻ったら、推しクラブの選び方がわからなくなっていた | free | 0 | Published(下書きストック) | `articles/euro-football-oshi-club/article.md` | id:170411330 | ⚽欧州サッカー再入門（シリーズの1本目・W杯後の乗り換え需要にタイムリー）・事実は確認済みのみ使用（コモ/セスク/インテル/ミラン/モドリッチ） |
