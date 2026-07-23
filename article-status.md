@@ -1,6 +1,6 @@
 # 記事ステータス一覧
 
-Last Updated: 2026-07-17
+Last Updated: 2026-07-24
 
 軽量フロー（カジュアルnote向け）。詳細は `knowledge/04_integrated_design.md`。
 **更新ルール**: `/publish` 実行時に必ず本ファイルを更新する（行追記 or Phase更新＋`Last Updated` 書き換え）。
@@ -72,3 +72,13 @@ Last Updated: 2026-07-17
 | 46 | ストイックを、履き違えていた——規律は目的になった瞬間、自分を罰する装置になる | free | 0 | Published(下書きストック) | `articles/stoicism-misused/article.md` | id:169679858 | 柱2規律の罠・#35(楽しみ側)と芯を書き分け・SEO:ストイック |
 | 47 | ゴールの快感は、ゴールそのものにはなかった——サッカーを生中継で見たい本当の理由 | free | 0 | Published(下書きストック) | `articles/football-liveness-time/article.md` | id:170411327 | ⚽観戦の現在性/揮発性・**W杯開催中のタイムリー**・柱2「意味を必要としない時間」と接続・固有名詞なし（体感中心） |
 | 48 | 20年ぶりに欧州サッカーへ戻ったら、推しクラブの選び方がわからなくなっていた | free | 0 | Published(下書きストック) | `articles/euro-football-oshi-club/article.md` | id:170411330 | ⚽欧州サッカー再入門（シリーズの1本目・W杯後の乗り換え需要にタイムリー）・事実は確認済みのみ使用（コモ/セスク/インテル/ミラン/モドリッチ） |
+| 49 | 経験を、いちいち回収しないこと——アウトプット至上主義でやせ細った感受性の話 | free | 0 | Published(下書きストック) | `articles/experience-not-harvested/article.md` | id:171484241 | 柱2親エッセイ由来・経験を成果に変換しない・note運用への自己批判メタ |
+| 50 | 「5分だけやる」より、「5分でやめていい」の方が難しかった | free | 0 | Published(下書きストック) | `articles/permission-to-stop/article.md` | id:171484244 | 柱2親エッセイ由来・終了の許可・#16(入口)の出口版で書き分け |
+| 51 | 自己管理を数値で突き詰めた先で気づいた、メーターに映らない一番大事なもの | free | 0 | Published(下書きストック) | `articles/measure-everything-blindspot/article.md` | id:171484245 | 柱2・効率を疑う・測れないものが視界から消える・薬機法配慮 |
+| 52 | 管理職から「降りた」話——出世を断ることは、後退じゃなかった | free | 0 | Published(下書きストック) | `articles/manager-to-ic/article.md` | id:171484247 | 柱3・実存/キャリア・マネージャー→IC・固有情報は抽象化 |
+| 53 | 答えを急ぐな──モヤモヤを宙吊りのまま抱える力が、良い判断を連れてくる | free | 0 | Published(下書きストック) | `articles/negative-capability/article.md` | id:171484249 | 柱3/内省・ネガティブケイパビリティ・全柱の通奏低音 |
+| 54 | AIと壁打ちするほど、言語化は速くなるのに考えが浅くなる話 | free | 0 | Published(下書きストック) | `articles/ai-talk-shallow/article.md` | id:171484250 | 柱4・本職・言語化≠解決・AI活用礼賛への逆張り |
+| 55 | 良い技術なら勝手に広まる、は嘘だった——保守的な現場にAIを通して学んだこと | free | 0 | Published(下書きストック) | `articles/ai-in-conservative-org/article.md` | id:171484251 | 柱4・介護×AIの一次性・固有情報は抽象化 |
+| 56 | 断酒中の飲み会、断らずに泳ぎ切る——僕がやっている乗り切り方 | free | 0 | Published(下書きストック) | `articles/sober-party-navigate/article.md` | id:171484252 | 柱1断酒・実践how-to・#31(観察)と書き分け・低薬機法 |
+| 57 | 何度も読み返す漫画に共通するのは、強さじゃなく「積もった時間」だった | free | 0 | Published(下書きストック) | `articles/manga-lens/article.md` | id:171484253 | 雑多コラム・藤田和日郎/皆川亮二/フリーレンのみ・柱2愛着/時間と地続き |
+| 58 | 健康は整えたのに、生命力が湧いてこない——数値が良くても元気にならなかった話 | free | 0 | Published(下書きストック) | `articles/effort-no-vitality/article.md` | id:171484254 | 柱2・健康と生命力の乖離・#51と書き分け・⚠️薬機法(免責付) |
